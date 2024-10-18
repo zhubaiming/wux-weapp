@@ -85,7 +85,7 @@ export function uploadFile(options) {
         name = 'file',
         header = {},
         formData = {},
-        timeout = 20,
+        timeout = 20000,
         enableProfile = true,
         enableHttp2 = false,
         ...resetCbs
